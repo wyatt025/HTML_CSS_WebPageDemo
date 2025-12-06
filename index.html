@@ -2,22 +2,37 @@
 <html>
 <head>
     <link rel="stylesheet" href="defaultappstyles.css">
+    <style>
+        /*@media screen and (max-width: 700px) {
+            {   
+                flex-direction: column;
+            }
+        }*/
+    </style>
 </head>
 <body class="Main">
-    <div class="TitleBar-Container">
-        <div class="TBcontent">Logo</div>
-        <div class="TBcontent">Bangin Burgers</div>
-        <div class="TBcontent">Cart</div>
+
+    <div class="TitleBar">
+        <div>
+            <svg height="69" width="89" xmlns="http://www.w3.org/2000/svg">
+                <image href="Pics&Logos/BBs Logo.png" alt="burger">
+            </svg>
+        </div>
+        <div>Bangin Burgers</div>
+        <div id="ShoppingCart" style="align-self: center;">
+            <a href="shoppingcart.html" >
+                <svg id="ShopCartSVG" height="36" width="51" xmlns="http://www.w3.org/2000/svg" >
+                    <image href="Pics&Logos/cart logo.png" alt="shopping cart">
+                </svg>
+            </a>
+        </div>
     </div>
-    <div class="MenuBar-container">
-        <div class="MB-content">Burgers</div>
-        <div class="MB-content">Sides</div>
-        <div class="MB-content">Drinks</div>
-        <div class="MB-content">Desserts</div>
+    <div class="MenuBar">
+        <div>Burgers</div>
+        <div>Sides</div>
+        <div>Drinks</div>
+        <div>Desserts</div>
     </div>
-        <h1>Main Menu</h1>
-        <p>this is the main menu</p>
         <p><a href="detailview.html">detail view</a></p>
-        <p><a href="shoppingcart.html">shopping cart</a></p>
 </body>
 </html>
