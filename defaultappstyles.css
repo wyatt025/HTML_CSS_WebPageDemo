@@ -47,6 +47,7 @@
     align-items: center;
     padding: 1% 0 1% 0;
     height: 5vw;
+
 }
 #ShoppingCart{
     height: 48px;
@@ -81,7 +82,7 @@
 }
 .MenuTags{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column;
     justify-content: space-between;
     margin: 0 2% 0 2%;
 }
@@ -125,8 +126,9 @@
 .spacer{
     margin: 2% 0 2% 0;
 }
-@media (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .MenuContent-Container{   
                 flex-direction: column;
+                gap: 50px;
             }
 }
