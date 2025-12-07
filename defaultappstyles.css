@@ -31,13 +31,13 @@
     background-color: #E2E2E2;
     justify-content: center;
     margin: 0;
+    overflow: scroll;
 }
 .title-Container{
     display: flex;
     flex-flow: column;
     position: sticky;
     top: 0;
-    width: 100vw;
 }
 .TitleBar {
     background-color: #8F0000;
@@ -46,6 +46,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1% 0 1% 0;
+    height: 5vw;
 }
 #ShoppingCart{
     height: 48px;
@@ -71,6 +72,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1% 0 1% 0;
+    height: 1.2vw;
 }
 .MenuBar div{
     color: #8F0000;
@@ -79,7 +81,7 @@
 }
 .MenuTags{
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
     justify-content: space-between;
     margin: 0 2% 0 2%;
 }
@@ -116,6 +118,15 @@
     height: 90%;
     width: 90%;
 }
+.contentImageALT{
+    height: 50%;
+    width: 50%;
+}
 .spacer{
     margin: 2% 0 2% 0;
+}
+@media screen and (max-width: 700px) {
+    .MenuContent-Container{   
+                flex-direction: column;
+            }
 }
