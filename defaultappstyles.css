@@ -125,7 +125,7 @@
 .spacer{
     margin: 2% 0 2% 0;
 }
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
     .MenuContent-Container{   
                 flex-direction: column;
             }
