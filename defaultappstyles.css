@@ -13,10 +13,25 @@
     align-items: center;
     font: bold 2em arial;
 }
+.Red-Bold{
+    color: #8F0000;
+    align-items: center;
+    font: bold 2em arial;
+}
 .Red-SemiBold{
     color: #8F0000;
     align-items: center;
     font: 500 1.5em arial;
+}
+.Black-Thin{
+    color: black;
+    align-items: center;
+    font: 500 1em arial;    
+}
+.Black-Thinner{
+    color: black;
+    align-items: center;
+    font: 100 1em arial;   
 }
 .HyperL1{
     color: #8F0000;
@@ -25,8 +40,11 @@
 .HyperL1:hover{
     color:#EF9700;
 }
+.txtAdj{
+    font-size: 1.5em
+}
 
-
+/*Main page classes*/
 .Main {
     background-color: #E2E2E2;
     justify-content: center;
@@ -125,6 +143,95 @@
 }
 .spacer{
     margin: 2% 0 2% 0;
+}
+/*Detail view page classes*/
+.Detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.nutritonBox{
+    border: 3px solid #8F0000;
+    border-radius: 5px;
+    width: 50vh;
+}
+.nutrition-table{
+    width: 75%;
+    padding: 5% 0% 1.5% 2.5%;
+    border-spacing: 0px 20px;
+    margin-left: 20px;
+}
+/*Shopping cart classes*/
+.shoppingCart-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+    margin: 5% 2% 5% 2%;
+}
+.cart{
+    display: flex;
+    flex-flow: column;
+
+}
+.cart-Tab{
+    display: block;
+    background-color: #8F0000;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0px 0px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+.cart-Box{
+    background-color: white;
+    border: 3px solid #8F0000;
+    border-radius: 0px 5px 0px 0px;
+}
+.cart-Table{
+    border-spacing: 10px 20px;
+}
+.total-box{
+    background-color: #8F0000;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    padding: 1.5% 0% 1.5% 0%;
+}
+.address-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    border: 3px solid #8F0000;
+    border-radius: 5px; 
+    width: 430px;
+    padding: .5%; 
+}
+.addressTxT{
+    color: black;
+    align-items: center;
+    font: bold 1em arial;
+    text-decoration: none;
+}
+.addressTxT:hover{
+    color: #8F0000;
+}
+.checkout-btn{
+    background-color: #EF9700;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 98%;
+    text-align: center;
+}
+.checkout-btn:hover{
+    background-color: #8F0000;
 }
 @media screen and (max-width: 500px) {
     .MenuContent-Container{   

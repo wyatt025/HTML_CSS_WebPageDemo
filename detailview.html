@@ -11,12 +11,14 @@
             justify-content: space-evenly;
             align-items: center;
             padding: 1% 0 1% 0;
-            position: fixed;
+            position: sticky;
             bottom: 0;
-            width: 100vw;
         }
         .DvBack-btn:hover{
             background-color: #EF9700;
+        }
+        .DvBack-btnTxtADJ{
+            text-decoration: none;
         }
     </style>
 </head>
@@ -24,10 +26,47 @@
     <div class="TitleBar">
         <div class="White-Bold">Bangin Chesse Burger</div>
     </div>
-        <h1>detail view</h1>
-        <p>this is the detail view</p>
-        <p><a href="index.html">main menu</a></p>
-    <a style="text-decoration: none;" class="DvBack-btn" href="index.html">
+    <div class="Detail-container">
+        <div>
+            <div class="Black-Bold txtAdj">Description:</div>
+            <div class="Black-Thin" style="margin-top: .5%;">
+                A juicy beef patty topped with cheddar,<br>
+                lettuce, tomato, onions.<br> 
+                Ketchup and Bangin sauce.<br>
+                <div class="Black-Thinner"><i>* Pickles added on by request *</i></div>
+            </div>
+        </div>
+        <div class="nutritonBox">
+            <div style="margin: 10px;">
+                <div class="Black-Bold txtAdj"><u>Nutrition:</u></div>
+                    <table class="nutrition-table">
+                        <tr>
+                            <th class="Black-Bold txtAdj" style="text-align: left;"><u>Calories:</u></th>
+                            <th class="Black-Thinner" style="text-align: right;">550 Cal</th>
+                        </tr>
+                        <tr>
+                            <th class="Black-Bold txtAdj" style="text-align: left;"><u>Protein:</u></th>
+                            <th class="Black-Thinner" style="text-align: right;">35g</th>
+                        </tr>
+                        <tr>
+                            <th class="Black-Bold txtAdj" style="text-align: left;"><u>Total Carbs:</u></th>
+                            <th class="Black-Thinner" style="text-align: right;">45g</th>
+                        </tr>
+                        <tr>
+                            <th class="Black-Bold txtAdj" style="text-align: left;"><u>Total Fat:</u></th>
+                            <th class="Black-Thinner" style="text-align: right;">25g</th>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+        <div>
+            <svg width="165" height="127" xmlns="http://www.w3.org/2000/svg">
+                <image href="Pics&Logos/BBs Logo large.png">
+            </svg>
+        </div>
+        <div class="Red-Bold" style="font-size: 3em;">Bangin Burgers</div>
+    </div>
+    <a style="margin-top: 20px;" class="DvBack-btn DvBack-btnTxtADJ" href="index.html">
         <div class="White-Bold">Back</div>
     </a>
 </body>
