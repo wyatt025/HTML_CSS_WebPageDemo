@@ -18,10 +18,20 @@
     padding: 1% 0 1% 0;
 
 }
-.TitleBar div {
+.White-Bold {
     color: white;
     align-items: center;
     font: bold 2em arial;
+}
+.Black-Bold {
+    color: black;
+    align-items: center;
+    font: bold 2em arial;
+}
+.Red-SemiBold{
+    color: #8F0000;
+    align-items: center;
+    font: 500 1.5em arial;
 }
 #ShoppingCart{
     height: 48px;
@@ -58,8 +68,41 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    margin: 0 5% 0 5%;
+    margin: 0 2% 0 2%;
 }
-.MenuTags div{
-    border-bottom: solid 3px var(--accent-yellow);
+.MenuTagsLine{
+    border-bottom: 3px solid #EF9700;
+    margin: 2% 0 2% 0;
+    padding-bottom: 4px;
+}
+.MenuTabs {
+    display: inline;
+    background-color: #8F0000;
+    border: solid #8F0000;
+    border-width: 3px 10px 05px 10px;
+    border-top-right-radius: 520px;
+    font-size: 1em; 
+}
+.MenuContent-Container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.MenuContent-Container div{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+.Content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: 5px;
+}
+.contentImage{
+    height: 90%;
+    width: 90%;
+}
+.spacer{
+    margin: 2% 0 2% 0;
 }
