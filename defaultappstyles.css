@@ -33,6 +33,11 @@
     align-items: center;
     font: 100 1em arial;   
 }
+.Black-Bold-Cart {
+    color: black;
+    align-items: center;
+    font: bold 2em arial;
+}
 .HyperL1{
     color: #8F0000;
     text-decoration: none;
