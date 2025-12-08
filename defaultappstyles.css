@@ -191,7 +191,7 @@
 .cart-Box{
     background-color: white;
     border: 3px solid #8F0000;
-    border-radius: 0px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 .cart-Table{
     border-spacing: 10px 20px;
@@ -210,8 +210,13 @@
     gap: 30px;
     background-color: white;
     border: 3px solid #8F0000;
-    border-radius: 5px; 
-    width: 27em;
+    border-radius: 5px;
+    padding: .5% 9% .5% 9%;
+
+}
+.addressTxT-Table{
+    border-spacing: 0px 20px;
+    width: 100%;
 }
 .addressTxT{
     color: black;
